@@ -10,14 +10,16 @@
   "host_permissions": [
     "https://*.okta.com/*",
     "https://*.okta-emea.com/*",
-    "https://*.oktapreview.com/*"
+    "https://*.oktapreview.com/*",
+    "https://*.login.samba.tv/*"
   ],
   "content_scripts": [
     {
       "matches": [
         "https://*.okta.com/*",
         "https://*.okta-emea.com/*",
-        "https://*.oktapreview.com/*"
+        "https://*.oktapreview.com/*",
+        "https://*.login.samba.tv/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"

@@ -34,11 +34,12 @@ The next time you visit an Okta sign-in page the extension will apply your setti
 
 The extension activates on the following Okta domains:
 
-| Domain pattern | Example |
-|---|---|
-| `*.okta.com` | `yourorg.okta.com` |
-| `*.okta-emea.com` | `yourorg.okta-emea.com` |
+| Domain pattern      | Example                   |
+|---------------------|---------------------------|
+| `*.okta.com`        | `yourorg.okta.com`        |
+| `*.okta-emea.com`   | `yourorg.okta-emea.com`   |
 | `*.oktapreview.com` | `yourorg.oktapreview.com` |
+| `*.login.samba.tv`  | `yourorg.login.samba.tv`  |
 
 Both **Classic Engine** and **Okta Identity Engine (OIE)** page layouts are supported.
 
