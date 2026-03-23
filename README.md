@@ -39,7 +39,9 @@ The extension activates on the following Okta domains:
 | `*.okta.com`        | `yourorg.okta.com`        |
 | `*.okta-emea.com`   | `yourorg.okta-emea.com`   |
 | `*.oktapreview.com` | `yourorg.oktapreview.com` |
-| `*.login.samba.tv`  | `yourorg.login.samba.tv`  |
+| `*.login.samba.tv`  | `login.samba.tv`          |
+
+Add your custom login domain to manifest.json
 
 Both **Classic Engine** and **Okta Identity Engine (OIE)** page layouts are supported.
 
